@@ -33,7 +33,8 @@ header p {
 }
 
 .img-principal img {
-    width: 900px;
+    width: 90%;
+    min-width: 280px;
     background-size: cover;
     border-radius: 10px;
 }
@@ -71,5 +72,10 @@ footer {
 
 footer a {
     text-decoration: none;
-    color: ;
+}
+
+@media (max-width: 880px) {
+    .flex img {
+        display: none;
+    }
 }
